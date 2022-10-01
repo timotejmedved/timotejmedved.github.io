@@ -12,7 +12,7 @@ export default function Knowledge() {
 
           {Znanja.knowledge?.map(zanje => {
             return (
-              <div>
+              <div key={zanje.name}>
                 <span className="icon-color">{zanje.name}</span>
                 <div className="h-3 relative max-w-xl rounded-full overflow-hidden">
                   <div className="w-full h-full bg-gray-200 absolute"></div>
