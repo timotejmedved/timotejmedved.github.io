@@ -7,6 +7,7 @@ export default function SingleProject() {
     const project = router.query;
 
 
+
     if (project.vsebina == "false") {
         console.log(project.vsebina);
         return (
