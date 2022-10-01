@@ -11,16 +11,16 @@ export default function SingleProject() {
         console.log(project.vsebina);
         return (
             <div className="w-full md:w-2/3 md:max-w-full mx-auto shadow-xl my-10 mb-32">
-            <div className="p-1  bg-color">
-                <h1 className="text-white font-semibold text-xl">Info</h1>
+                <div className="p-1  bg-color">
+                    <h1 className="text-white font-semibold text-xl">Info</h1>
+                </div>
+                <div className="bg-gray-100 p-3">
+                    <h5 className="text-2xl font-semibold">Vsebina še ni na voljo</h5>
+                    <p className="opacity-80 mt-2">
+                        Vsebina je v pripravi
+                    </p>
+                </div>
             </div>
-            <div className="bg-gray-100 p-3">
-                <h5 className="text-2xl font-semibold">Vsebina še ni na voljo</h5>
-                <p className="opacity-80 mt-2">
-                    Vsebina je v pripravi
-                </p>
-            </div>
-        </div>
         )
     } else {
         return (
@@ -61,6 +61,11 @@ export default function SingleProject() {
                         </p>
                     </div>
                 </div>
+
+                <div className="w-full md:w-2/3 md:max-w-full mx-auto  content-center">
+                    <Image className="rounded shadow-md content-center" src={project.image} alt="" width={250} height={250} />
+                </div>
+
 
                 <div className="container mx-auto px-4 pb-60 pt-20">
                     <div className="container mx-auto px-4">

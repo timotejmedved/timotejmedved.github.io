@@ -91,7 +91,7 @@
         },
         {
             "id":4,
-            "vsebina": "false",
+            "vsebina": "true",
             "name":"Slomaster - spletna stran",
             "short_description":"This is a project",
             "long_description":"This is a project",
@@ -99,9 +99,9 @@
             "start_date":"2022",
             "end_date":"01/01/2018",
             "url":"https://slomaster.info/",
-            "image":"https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "image":"/slomaster.png",
             "gallery":[
-
+                
             ],
             "youtube":"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "year":"2018",
