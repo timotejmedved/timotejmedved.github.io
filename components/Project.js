@@ -20,7 +20,7 @@ export default function Project({ project }) {
         <h1 className="text-white bg-color font-semibold text-3xl p-1">{project.name}</h1>
         <div className="bg-gray-100 p-3">
           <p className="opacity-80 ">
-            .pdf (v pripravi)
+            
           </p>
           <div className="flex mt-2 item-center">
             <span>{project.year}</span>
