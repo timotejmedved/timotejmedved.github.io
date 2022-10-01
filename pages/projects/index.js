@@ -35,20 +35,12 @@ export default function Projects() {
                   <h1 href="#" className="block font-semibold">Statistika:</h1>
                   <ul>
                     <li>- {Projekti.projects.length} projektov</li>
-                    <li>- 5 GitHub repozitorijev</li>
                   </ul>
                 </div>
 
-                <div>
-                  <h1 href="#" className="block font-semibold">Sortiraj:</h1>
-                  <ul>
-                    <li> <input type="checkbox" /> Python projects</li>
-                    <li> <input type="checkbox" /> WPF C# projects</li>
-                    <li> <input type="checkbox" /> Unity projects</li>
-                    <li> <input type="checkbox" /> Flutter projects</li>
-                    <li> <input type="checkbox" /> Spletne strani</li>
-                  </ul>
-                </div>
+
+               
+
               </div>
             </div>
 
@@ -69,7 +61,19 @@ export default function Projects() {
   )
 }
 
-
+/**
+ * 
+ *  <div>
+                  <h1 href="#" className="block font-semibold">Sortiraj:</h1>
+                  <ul>
+                    <li> <input type="checkbox" /> Python projects</li>
+                    <li> <input type="checkbox" /> WPF C# projects</li>
+                    <li> <input type="checkbox" /> Unity projects</li>
+                    <li> <input type="checkbox" /> Flutter projects</li>
+                    <li> <input type="checkbox" /> Spletne strani</li>
+                  </ul>
+                </div>
+ */
 
 
 /*
