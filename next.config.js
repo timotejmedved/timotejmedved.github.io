@@ -10,9 +10,6 @@ const nextConfig = {
   },
   //basePath: "/nextjs-pages",
   assetPrefix: "./",
-
-  
-
 }
 
 module.exports = nextConfig

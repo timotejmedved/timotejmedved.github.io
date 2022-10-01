@@ -36,7 +36,7 @@ export default function SingleProject() {
                                 );
                             })}
                         </div>
-                        <h1 className="font-semibold text-1xl">Leto: {project.start_date}</h1>
+                        <h1 className="font-semibold text-1xl">Leto: {project.year}</h1>
 
                         {project.url != '' && (
                             <h1 className="font-semibold text-1xl">Povezava: <a classNameName='hover:underline' href={project.url} target="blank">{project.url}</a> </h1>
@@ -63,9 +63,13 @@ export default function SingleProject() {
                     </div>
                 </div>
 
-                <div className="w-full md:w-2/3 md:max-w-full mx-auto  content-center">
-                    <Image className="rounded shadow-md content-center" src={project.image} alt="" width={250} height={250} />
+                <div className='mt-8 w-full md:w-2/3 md:max-w-full mx-auto shadow-md'>
+                    <center>
+                        <Image  src={"/" + project.image} alt={project.image} width={1260} height={750} />
+                    </center>
                 </div>
+
+
 
 
                 <div className="container mx-auto px-4 pb-60 pt-20">
