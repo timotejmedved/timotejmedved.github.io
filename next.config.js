@@ -8,7 +8,7 @@ const nextConfig = {
     path:"",
     domains: ['avatars.githubusercontent.com']
   },
-  basePath: "/nextjs-pages",
+  //basePath: "/nextjs-pages",
   assetPrefix: "/nextjs-pages",
 
   
