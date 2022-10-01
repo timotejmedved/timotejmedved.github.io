@@ -10,7 +10,7 @@ export default function About() {
         </div>
         <div className="p-3">
           <p className="opacity-80 icon-color font-sans">
-            Sem Timotej Medved star sem 21 let in živim v kraju Mihovce, Občina Kidričevo. 
+            Sem Timotej Medved star sem 21 let in živim v kraju Mihovce, Občina Kidričevo.
           </p>
         </div>
       </div>
@@ -46,19 +46,28 @@ export default function About() {
             V letu 2019 sem sodeloval v projektu Erasmus+ z naslovom <span className="font-bold">&quot; Smo mladi, smo radovedni - Evropa prihajamo! &quot;</span>. V okviru projekta sem tri tedne opravljal prakso na Poljskem v mestu Vroclav (Wrocław). Prakso sem opravljal v podjetju Nexwell Engineering.
           </p>
           <div className="w-full md:w-2/3 md:max-w-full mx-auto shadow-xl transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 pt-5">
-          <div className="p-1  bg-color">
-            <h1 className="text-white font-semibold text-xl">Dnevnik Wrocław</h1>
+            <div className="p-1  bg-color">
+              <h1 className="text-white font-semibold text-xl">Dnevnik Wrocław</h1>
+            </div>
+            <div className="bg-gray-100 p-3">
+              <p className="opacity-80 icon-color font-sans p-3">Več o moji izkušnji na Erasmus+ si lahko prebereš v mojem dnevniku, ki je nastal v času bivanja na Poljskem.
+                <br /><br />
+                <a className="text-gray-700 hover:text-color font-semibold block pb-2 text-sm" href="#">Dnevnik Wrocław (.pdf)</a>
+              </p>
+            </div>
           </div>
-          <div className="bg-gray-100 p-3">
-            <p className="opacity-80 icon-color font-sans p-3">Več o moji izkušnji na Erasmus+ si lahko prebereš v mojem dnevniku, ki je nastal v času bivanja na Poljskem.
-              <br /><br />
-              <a className="text-gray-700 hover:text-color font-semibold block pb-2 text-sm" href="#">Dnevnik Wrocław (.pdf)</a>
-            </p>
-          </div>
-        </div>
-          <div className="flex flex-wrap pt-1">
-            <Image alt="erasmus logo" src="https://cufar.si/files/2015/03/erasmus-logo1.png" className="p-3" />
-            <Image alt="wroclav" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/7a/6a/7f.jpg" className="p-3" />
+          <div className="flex flex-wrap pt-5">
+
+            <div className="h-64 w-96 relative">
+
+              <Image alt="erasmus logo" src="https://cufar.si/files/2015/03/erasmus-logo1.png" className="p-3 rounded-sm" layout='fill' />
+            </div>
+
+            <div className="h-64 w-96 relative">
+
+              <Image alt="wroclav" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/7a/6a/7f.jpg" className="p-3 rounded-sm" layout='fill' />
+            </div>
+
           </div>
         </div>
       </div>
