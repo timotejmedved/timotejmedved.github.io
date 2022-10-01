@@ -40,7 +40,7 @@
                 "start_date":"01/01/2018",
                 "end_date":"01/01/2018",
                 "url":"",
-                "image":"https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+                "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png",
                 "gallery":[
                     
                 ],
@@ -98,7 +98,7 @@
             "type":"OpenSource",
             "start_date":"2022",
             "end_date":"01/01/2018",
-            "url":"",
+            "url":"https://slomaster.info/",
             "image":"https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "gallery":[
 
@@ -130,7 +130,7 @@
             "type":"OpenSource",
             "start_date":"01/01/2018",
             "end_date":"01/01/2018",
-            "url":"",
+            "url":"http://oscirkovcesch.weebly.com/",
             "image":"https://i.ytimg.com/vi/329bP7CscDE/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBr97AGW8TFUD_8ciboIk2M6AdCiw",
             "gallery":[
 
@@ -138,6 +138,35 @@
             "youtube":"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             "year":"2016",
             "status":"Projekt je zaključen",
+            "priority":"-",
+            "github_link":"",
+            "team":[
+                {
+                    "name":"Timotej Medved",
+                    "role":"Developer"
+                }
+            ],
+            "tags":[
+                "Weebly"
+            ]
+        },
+        {
+            "id":5,
+            "vsebina": "false",
+            "name":"slokino.si - stran ne obstaja več",
+            "short_description":"This is a project",
+            "long_description":"This is a project",
+            "type":"OpenSource",
+            "start_date":"01/01/2018",
+            "end_date":"01/01/2018",
+            "url":"stran trenutno ne obstaja več",
+            "image":"https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000",
+            "gallery":[
+
+            ],
+            "youtube":"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "year":"2018",
+            "status":"Projekt je zaključen in ne obstaja več",
             "priority":"-",
             "github_link":"",
             "team":[
