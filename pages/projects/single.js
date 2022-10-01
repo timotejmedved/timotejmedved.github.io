@@ -1,45 +1,13 @@
 import React from 'react'
+import { useRouter } from 'next/router'
 import Image from 'next/image'
+export default function SingleProject() {
 
-/*
-export const getStaticPaths = async () => {
-    const res = await fetch('http://localhost:3000/api/projects');
-    const data = await res.json();
+    const router = useRouter()
+    const project = router.query;
 
-    const paths = data.map(project => ({
-        params: { id: project.id.toString() }
-    }));
-
-    return {
-        paths,
-        fallback: false
-    }
-}
-
-export const getStaticProps = async (context) => {
-    const id = context.params.id;
-    const res = await fetch('http://localhost:3000/api/projects/' + id);
-    const data = await res.json();
-
-    return {
-        props: {
-            project: data
-        }
-    }
-}
-*/
-export default function Project({ project }) {
     return (
         <div className="container mx-auto px-4 pb-60 pt-20">
-            
-   
-        </div>
-    )
-}
-/*
- return (
-        <div className="container mx-auto px-4 pb-60 pt-20">
-            
             <div className="w-full md:w-2/3 md:max-w-full mx-auto">
                 <div className="p-1">
                     <h1 className="font-semibold text-4xl ">{project.name}</h1>
@@ -52,10 +20,10 @@ export default function Project({ project }) {
                     </div>
                     <h1 className="font-semibold text-1xl">Leto: {project.start_date}</h1>
 
-                    {project.url != '' &&(
+                    {project.url != '' && (
                         <h1 className="font-semibold text-1xl">Povezava: <a classNameName='hover:underline' href={project.url} target="blank">{project.url}</a> </h1>
                     )}
-                    
+
                 </div>
                 <div className="p-3">
                 </div>
@@ -93,4 +61,4 @@ export default function Project({ project }) {
             <br /><br />
         </div>
     )
-*/
+}
