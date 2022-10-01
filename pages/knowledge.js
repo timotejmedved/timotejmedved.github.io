@@ -1,4 +1,5 @@
 import React from 'react'
+import Knowledge from '../data/knowledge.json'
 
 export default function Knowledge() {
   return (
@@ -8,6 +9,19 @@ export default function Knowledge() {
           <h1 className="font-semibold text-4xl ">Znanja</h1>
         </div>
         <div className="p-3">
+
+          {Knowledge.knowledge?.map(zanje => {
+            return (
+              <div>
+                <span className="icon-color">{zanje.name}</span>
+                <div className="h-3 relative max-w-xl rounded-full overflow-hidden">
+                  <div className="w-full h-full bg-gray-200 absolute"></div>
+                  <div className="h-full bg-color absolute" style={{ width: zanje.procent + '%' }}></div>
+                </div>
+              </div>
+            );
+          })}
+
           <div>
             <span className="icon-color">C#</span>
             <div className="h-3 relative max-w-xl rounded-full overflow-hidden">
@@ -129,7 +143,7 @@ export default function Knowledge() {
           </div>
 
           <p className="opacity-80 icon-color font-sans pt-10">
-            Znanje je samoevalvirano! 👉Samoevalvirano znanje👈         
+            Znanje je samoevalvirano! 👉Samoevalvirano znanje👈
           </p>
         </div>
       </div>
@@ -144,7 +158,7 @@ export default function Knowledge() {
         </div>
         <div className="bg-gray-100 p-3">
           <p className="opacity-80 icon-color font-sans p-3">
-            Znanje je           
+            Znanje je
           </p>
         </div>
       </div>
@@ -159,7 +173,7 @@ export default function Knowledge() {
         </div>
         <div className="bg-gray-100 p-3">
           <p className="opacity-80 icon-color font-sans p-3">
-            Znanje je          
+            Znanje je
           </p>
         </div>
       </div>
