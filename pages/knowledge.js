@@ -1,5 +1,5 @@
 import React from 'react'
-import Knowledge from '../data/knowledge.json'
+import Znanja from '../data/knowledge.json'
 
 export default function Knowledge() {
   return (
@@ -10,7 +10,7 @@ export default function Knowledge() {
         </div>
         <div className="p-3">
 
-          {Knowledge.knowledge?.map(zanje => {
+          {Znanja.knowledge?.map(zanje => {
             return (
               <div>
                 <span className="icon-color">{zanje.name}</span>
