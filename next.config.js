@@ -9,7 +9,7 @@ const nextConfig = {
     domains: ['avatars.githubusercontent.com']
   },
   //basePath: "/nextjs-pages",
-  assetPrefix: "/nextjs-pages",
+  assetPrefix: "./",
 
   
 
