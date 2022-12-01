@@ -116,6 +116,7 @@ export default function About() {
             <li>2019-2020 poslanec DOS (Dijaška organizacija Slovenije)</li>
             <li>2020-2021 predstavnik prvega letnika ITK (VS) - FERI</li>
             <li>2021-2022 predstavnik drugega letnika ITK (VS) - FERI</li>
+            <li>2022-2023 predstavnik tretjega letnika ITK (VS) - FERI</li>
           </ul>
         </div>
       </div>
