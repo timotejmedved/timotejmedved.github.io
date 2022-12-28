@@ -56,6 +56,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <p>Navedeni so le nekateri projekti.</p>
       </section>
     </div>
   )

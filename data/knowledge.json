@@ -87,6 +87,10 @@
         {
             "name":"WordPress",
             "procent":60
+        },
+        {
+            "name":"Git",
+            "procent":75
         }
 
     ]
