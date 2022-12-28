@@ -36,6 +36,7 @@ export default function Projects() {
                   <ul>
                     <li>- {Projekti.projects.length} projektov</li>
                   </ul>
+                  <p>Navedeni so le nekateri projekti.</p>
                 </div>
 
 
@@ -54,7 +55,7 @@ export default function Projects() {
                 );
               })}
             </div>
-            <p>Navedeni so le nekateri projekti.</p>
+            
           </div>
          
         </div>
