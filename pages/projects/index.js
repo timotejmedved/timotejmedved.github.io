@@ -54,8 +54,9 @@ export default function Projects() {
                 );
               })}
             </div>
+            <p>Navedeni so le nekateri projekti.</p>
           </div>
-          <p>Navedeni so le nekateri projekti.</p>
+         
         </div>
         
       </section>
