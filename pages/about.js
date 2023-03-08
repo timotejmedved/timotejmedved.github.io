@@ -10,7 +10,7 @@ export default function About() {
         </div>
         <div className="p-3">
           <p className="opacity-80 icon-color font-sans">
-            Sem Timotej Medved star sem 21 let in živim v kraju Mihovce, Občina Kidričevo.
+            Sem Timotej Medved star sem 22 let. 😀
           </p>
         </div>
       </div>
