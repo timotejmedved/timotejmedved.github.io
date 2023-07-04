@@ -34,36 +34,7 @@
                 "WORDPRESS"
             ]
         },
-            {
-                "id":2,
-                "vsebina": "false",
-                "name":"Woocommerce - namizna aplikacija za admine",
-                "short-description":"This is a project",
-                "long-description":"This is a project",
-                "type":"OpenSource",
-                "start_date":"01/01/2018",
-                "end_date":"01/01/2018",
-                "url":"",
-                "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/2560px-WooCommerce_logo.svg.png",
-                "gallery":[
-                    
-                ],
-                "youtube":"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                "year":"2022",
-                "status":"Projekt je izdelavi",
-                "priority":"-",
-                "github-link":"",
-                "team":[
-                    {
-                        "name":"Timotej Medved",
-                        "role":"Developer"
-                    }
-                ],
-                "tags":[
-                    "C#",
-                    "WPF"
-                ]
-            },
+
         {
             "id":3,
             "vsebina": "false",
