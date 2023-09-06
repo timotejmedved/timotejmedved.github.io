@@ -27,7 +27,7 @@ export default function About() {
           <ul className="list-disc opacity-80 p-3 icon-color font-semibold">
             <li>Osnovna šola Cirkovce</li>
             <li>ŠC Ptuj, Elektro in računalniška šola (2016 - 2020) - tehnik računalništva</li>
-            <li>Univerza v Mariboru - Fakulteta za elektrotehniko, računalništvo in informatiko (2020 - 2023) - diplomirani inženir informatike in tehnologij komuniciranja</li>
+            <li>Univerza v Mariboru - Fakulteta za elektrotehniko, računalništvo in informatiko (2020 - 2023) - diplomirani inženir informatike in tehnologij komuniciranja (VS)</li>
           </ul>
         </div>
       </div>
