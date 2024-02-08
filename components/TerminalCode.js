@@ -3,13 +3,13 @@ import React from 'react'
 export default function TerminalCode({ text }) {
   return (
     <code
-    class="text-sm sm:text-base inline-flex text-left items-center space-x-4 bg-gray-800 text-white rounded-lg p-2 pl-4">
-    <span class="flex gap-4">
-      <span class="shrink-0 text-gray-500">
+    className="text-sm sm:text-base inline-flex text-left items-center space-x-4 bg-gray-800 text-white rounded-lg p-2 pl-4">
+    <span className="flex gap-4">
+      <span className="shrink-0 text-gray-500">
         $
       </span>
 
-      <span class="flex-1">
+      <span className="flex-1">
         <span>
             {text}
         </span>
@@ -17,7 +17,7 @@ export default function TerminalCode({ text }) {
       </span>
     </span>
 
-    <svg class="shrink-0 h-5 w-5 transition text-gray-500 group-hover:text-white" xmlns="http://www.w3.org/2000/svg"
+    <svg className="shrink-0 h-5 w-5 transition text-gray-500 group-hover:text-white" xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
       <path d="M8 2a1 1 0 000 2h2a1 1 0 100-2H8z"></path>
       <path
