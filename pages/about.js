@@ -14,12 +14,20 @@ export default function About() {
           <TerminalCode text="nano bio_short.txt" />
           <p className="opacity-80 icon-color font-sans">
             Sem Timotej Medved star sem 23 let. 😀
-            <br /> Najljubša barva: #77C3EC
+            <br /> Najljubša barva: #77C3EC 🎨  (modra)
             <br /> Najljubša sladica: kremšnita
             <br /> Najljubši programski jezik: TypeScript
+            <br /> Mode: dark 🌙
+            <br /> Najljubši film: Madagaskar (Madagascar)
+            <br /> Najljubša knjiga: Doktor ti (Jeremy Howick), Človeško telo (Bill Bryson)
+            <br /> Najljubši šport: badminton
+            <br /> Najljubši avtomobil: Hyundai i30 N
+            <br /> Najljubši operacijski sistem: Linux Mint
+            <br /> Najljubši program: Visual Studio Code
+
             <br />
 
-    
+
 
           </p>
           <hr />
@@ -53,10 +61,29 @@ export default function About() {
           <h1 className="font-semibold text-4xl ">Izobraževanje</h1>
         </div>
         <div className="p-3">
-          <ul className="list-disc opacity-80 p-3 icon-color font-semibold">
+          <ul className="list-disc opacity-80 p-3 icon-color font-semibold space-y-3">
             <li>Osnovna šola Cirkovce</li>
             <li>ŠC Ptuj, Elektro in računalniška šola (2016 - 2020) - tehnik računalništva</li>
             <li>Univerza v Mariboru - Fakulteta za elektrotehniko, računalništvo in informatiko (2020 - 2023) - diplomirani inženir informatike in tehnologij komuniciranja (VS)</li>
+
+
+            <span className="font-bold underline">Diplomsko delo:
+              <a href="/docs/Diplomska_naloga.pdf" target='_blank' > Diplomska naloga (.pdf)</a>
+            </span>
+            <div className="w-full  mx-auto shadow-xl transition ease-in-out  ">
+              <div className="p-1  bg-color">
+                <h1 className="text-white font-semibold text-xl">Diplomska naloga </h1>
+              </div>
+              <div className="bg-gray-100 p-1">
+                <p className="opacity-80 icon-color font-sans p-1">Naslov: Primerjava ogrodij Express.js, Laravel ter .Net core web API za izdelavo REST API
+                  <br />
+
+                  Povezava do diplome:<span className="font-medium hover:text-color"> <a href="https://dk.um.si/IzpisGradiva.php?id=85310&lang=slv" className='text-blue-400 hover:underline' target='_blank' >DK.UM.SI</a></span>
+
+                </p>
+              </div>
+            </div>
+
             <li className='font-bold underline'>Univerza v Mariboru - Fakulteta za elektrotehniko, računalništvo in informatiko (2023 - Trenutno) - Informatika in podatkovne tehnologije - druga stopnja</li>
 
           </ul>
@@ -83,7 +110,9 @@ export default function About() {
             <div className="bg-gray-100 p-3">
               <p className="opacity-80 icon-color font-sans p-3">Več o moji izkušnji na Erasmus+ si lahko prebereš v mojem dnevniku, ki je nastal v času bivanja na Poljskem.
                 <br /><br />
-                <a className="text-gray-700 hover:text-color font-semibold block pb-2 text-sm" href="#">Dnevnik Wrocław (.pdf)</a>
+
+                <span className="font-medium hover:text-color"><a href="/docs/WROCŁAW 2019.pdf" target='_blank' >Dnevnik Wrocław (.pdf)</a></span>
+
               </p>
             </div>
           </div>
