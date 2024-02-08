@@ -20,12 +20,13 @@ export default function About() {
             <br /> Najljubša sladica: kremšnita
             <br /> Najljubši programski jezik: TypeScript
             <br /> Mode: dark 🌙
+            <br /> Najljubša glasbena skupina: Coldplay
             <br /> Najljubši film: Madagaskar (Madagascar)
             <br /> Najljubša knjiga: Doktor ti (Jeremy Howick), Človeško telo (Bill Bryson)
             <br /> Najljubši šport: badminton
             <br /> Najljubši avtomobil: Hyundai i30 N
             <br /> Najljubši operacijski sistem: Linux Mint
-            <br /> Najljubši program: Visual Studio Code
+            <br /> Najljubši program: Terminal
 
             <br />
 
