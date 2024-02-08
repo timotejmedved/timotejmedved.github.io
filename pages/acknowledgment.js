@@ -8,12 +8,13 @@ export default function Acknowledgment() {
                     <h1 className="font-semibold text-4xl ">Priznanja</h1>
                 </div>
                 <div className="p-3">
-                <ul className="list-disc opacity-80 p-3 icon-color font-semibold">
+                <ul className="list-disc opacity-80 p-3 icon-color font-semibold space-y-3">
                         <li className="hover:text-color"><a rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=CSMS8Q_81HQ">2019 - BALIRANJE - 3. MESTO NA DRŽAVNEM SREDNJEŠOLSKEM ACM TEKMOVANJU &rarr; Prikaži več</a></li>
                         <li className="hover:text-color"><a rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=FocYZhD_FY4">2020 - Naš vsakdanji kruh. 1. MESTO NA DRŽAVNEM SREDNJEŠOLSKEM ACM TEKMOVANJU &rarr; Prikaži več</a></li>
                         <li className="hover:text-color"><a rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=s9O8-vawl_g">2020 - Zrno na zrno pogača. 2. MESTO NA DRŽAVNEM SREDNJEŠOLSKEM ACM TEKMOVANJU &rarr; Prikaži več</a></li>
                         <li className="hover:text-color"><a rel="noreferrer" target="_blank" href="#">2020 - Srebrni znak odličnosti (Elektro Maribor d.d.) &rarr; Prikaži več</a></li>
-                        <li className="hover:text-color text-xl"><a rel="noreferrer" target="_blank" href="#">2021 - FERI - Priznanje dekana za uvrstitev med 5% najboljših študentov 1. letnika &rarr; Prikaži več</a></li>
+                        <li className="hover:text-color"><a rel="noreferrer" target="_blank" href="#">2021 - FERI - Priznanje dekana za uvrstitev med 5% najboljših študentov 1. letnika &rarr; Prikaži več</a></li>
+                        <li className="hover:text-color text-xl underline"><a rel="noreferrer" target="_blank" href="#">2023 - FERI - Priznanje dekana za uvrstitev med 5% najboljših študentov 3. letnika &rarr; Prikaži več</a></li>
                     </ul>
                 </div>
             </div>

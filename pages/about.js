@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import TerminalCode from '../components/TerminalCode'
 export default function About() {
   return (
     <div className="container mx-auto px-4 pb-60 pt-20">
@@ -8,10 +9,37 @@ export default function About() {
         <div className="p-1">
           <h1 className="font-semibold text-4xl ">O meni</h1>
         </div>
-        <div className="p-3">
+        <div className="p-3 space-y-3">
+          <TerminalCode text="nano bio_short.txt" />
           <p className="opacity-80 icon-color font-sans">
-            Sem Timotej Medved star sem 22 let. 😀
+            Sem Timotej Medved star sem 23 let. 😀
+            <br /> Najljubša barva: #77C3EC
+            <br /> Najljubša sladica: kremšnita
+            <br /> Najljubši programski jezik: TypeScript
+            <br />
+
+    
+
           </p>
+          <hr />
+
+          <TerminalCode text="nano bio_long.txt" />
+          <p className="opacity-80 icon-color font-sans">
+            Sem Timotej Medved, rojen 05.01.2001 v Mariboru. Leta 2020 sem končal Elektro in
+            računalniško šolo Ptuj, smer tehnik računalništva.
+            V letu 2023 sem uspešno diplomiral na Fakulteti za elektrotehniko, računalništvo in
+            informatiko Univerzo v Mariboru, smer informatika in tehnologije komuniciranja. Svoje
+            izobraževanje pa nadaljujem na drugi stopnji prav tako na FERI in sicer smer Informatika
+            in podatkovne tehnologije.
+          </p>
+          <p className="opacity-80 icon-color font-sans">
+            Sem vešč uporabe računalnika in raznih programov, programskih jezikov ter tehnologij.
+            Vso to znanje bi znal spretno uporabiti pri ustvarjanju novih, inovativnih idej. Sem
+            iznajdljiv, izviren, razumevajoč, natančen, prilagodljiv in mi ni problem se naučiti novih
+            veščin. Dosedanje naloge sem opravljal vestno in samostojno. Pri delu sem prilagodljiv
+            različnim ljudem in situacijam ter imam organizacijske sposobnosti.
+          </p>
+
         </div>
       </div>
 
@@ -28,6 +56,8 @@ export default function About() {
             <li>Osnovna šola Cirkovce</li>
             <li>ŠC Ptuj, Elektro in računalniška šola (2016 - 2020) - tehnik računalništva</li>
             <li>Univerza v Mariboru - Fakulteta za elektrotehniko, računalništvo in informatiko (2020 - 2023) - diplomirani inženir informatike in tehnologij komuniciranja (VS)</li>
+            <li className='font-bold underline'>Univerza v Mariboru - Fakulteta za elektrotehniko, računalništvo in informatiko (2023 - Trenutno) - Informatika in podatkovne tehnologije - druga stopnja</li>
+
           </ul>
         </div>
       </div>
@@ -86,6 +116,19 @@ export default function About() {
           </p>
         </div>
       </div>
+
+      <div className="w-full md:w-2/3 md:max-w-full mx-auto flex justify-center ">
+        <div className="p-3">
+          <div className="h-96 w-80 relative">
+            <Image alt="Članek štajerski tednik" src="/images/clanek.jpeg" className="p-3 rounded-sm" layout='fill' />
+
+          </div>
+          <div className="p-1 w-80 bg-color">
+            <h1 className="text-white font-mono text-base flex justify-center ">Celoten članek</h1>
+          </div>
+        </div>
+      </div>
+
       <div className="w-full md:w-2/3 md:max-w-full mx-auto shadow-xl transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 pt-5">
         <div className="p-1  bg-color">
           <h1 className="text-white font-semibold text-xl">Izsek iz članka</h1>
@@ -117,6 +160,7 @@ export default function About() {
             <li>2020-2021 predstavnik prvega letnika ITK (VS) - FERI</li>
             <li>2021-2022 predstavnik drugega letnika ITK (VS) - FERI</li>
             <li>2022-2023 predstavnik tretjega letnika ITK (VS) - FERI</li>
+            <li className='font-bold underline'>2023-2024 predstavnik prvega letnika IPT (MAG) - FERI</li>
           </ul>
         </div>
       </div>

@@ -5,6 +5,7 @@
 
 
 
+
 /*
 Globalna barva spletne strani (vkljucena v CSS)
 je = #03989E
@@ -37,6 +38,10 @@ Navbar
 */
 .button-nav{
     @apply lg:text-black lg:hover:text-color text-gray-800 px-3 py-4 lg:py-2 flex items-center uppercase font-bold transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300;
+}
+
+.button-nav-active{
+    @apply lg:text-color lg:hover:text-color text-gray-800 px-3 py-4 lg:py-2 flex items-center uppercase font-bold transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 underline;
 }
 
 

@@ -37,6 +37,7 @@ export default function Projects() {
                     <li>- {Projekti.projects.length} projektov</li>
                   </ul>
                   <p>Navedeni so le nekateri projekti.</p>
+                  <p>Več na GitHub: <a className='hover:text-blue-400 hover:underline' href="https://github.com/timotejmedved"> timotejmedved</a></p>
                 </div>
 
 
