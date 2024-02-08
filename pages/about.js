@@ -147,7 +147,7 @@ export default function About() {
           <h3 className="icon-color text-xl pb-1">ŠTAJERSKI TEDNIK</h3>
           <p className="opacity-80 icon-color font-sans">
             Elektro Maribor je že deveto leto zapored podelil nagrade za odlične dosežke v izobraževanju najboljšim dijakom srednjih elektro šol na svojem oskrbnem območju. Letošnji najboljši dijaki Elektro in računalniške šole Šolskega centra Ptuj so: Niko Križnik (zlati znak odličnosti, nagrada 300 evrov), Timotej Medved (srebrni znak odličnosti, nagrada 200 evrov) in Dominik Bigec (bronasti znak odličnosti, nagrada 100 evrov).
-            <br /><a className="hover:text-color underline" rel="noreferrer" target="_blank" href="https://www.tednik.si/druzba/21581-niko-timotej-in-dominik-dijaki-z-jasno-vizijo-svoje-prihodnosti" rel="noreferrer">ŠTAJERSKI TEDNIK</a>
+            <br /><a className="hover:text-color underline" rel="noreferrer" target="_blank" href="https://www.tednik.si/druzba/21581-niko-timotej-in-dominik-dijaki-z-jasno-vizijo-svoje-prihodnosti" >ŠTAJERSKI TEDNIK</a>
           </p>
         </div>
       </div>
