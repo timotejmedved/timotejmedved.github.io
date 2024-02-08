@@ -10,6 +10,11 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  //use effect to close the navbar when the route changes
+  React.useEffect(() => {
+    setIsOpen(false);
+  }, [router.asPath]);
+
   return (
     <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 sticky bg-white drop-shadow">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">

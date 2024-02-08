@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import TerminalCode from '../components/TerminalCode'
+import ImageComponent from '../components/ImageComponent'
 export default function About() {
   return (
     <div className="container mx-auto px-4 pb-60 pt-20">
@@ -86,6 +87,9 @@ export default function About() {
               </p>
             </div>
           </div>
+
+
+
           <div className="flex flex-wrap pt-5">
 
             <div className="h-64 w-96 relative">
@@ -117,17 +121,8 @@ export default function About() {
         </div>
       </div>
 
-      <div className="w-full md:w-2/3 md:max-w-full mx-auto flex justify-center ">
-        <div className="p-3">
-          <div className="h-96 w-80 relative">
-            <Image alt="Članek štajerski tednik" src="/images/clanek.jpeg" className="p-3 rounded-sm" layout='fill' />
+      <ImageComponent src="/images/clanek.jpeg" alt="Članek štajerski tednik" text="Celoten članek" />
 
-          </div>
-          <div className="p-1 w-80 bg-color">
-            <h1 className="text-white font-mono text-base flex justify-center ">Celoten članek</h1>
-          </div>
-        </div>
-      </div>
 
       <div className="w-full md:w-2/3 md:max-w-full mx-auto shadow-xl transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 pt-5">
         <div className="p-1  bg-color">
