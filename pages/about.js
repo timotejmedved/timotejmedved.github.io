@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import TerminalCode from '../components/TerminalCode'
 import ImageComponent from '../components/ImageComponent'
+import imageSrc from '../public/images/clanek.jpeg';
+
 export default function About() {
   return (
     <div className="container mx-auto px-4 pb-60 pt-20">
@@ -150,7 +152,7 @@ export default function About() {
         </div>
       </div>
 
-      <ImageComponent src="/images/clanek.jpeg" alt="Članek štajerski tednik" text="Celoten članek" />
+      <ImageComponent src={imageSrc} alt="Članek štajerski tednik" text="Celoten članek" />
 
 
       <div className="w-full md:w-2/3 md:max-w-full mx-auto shadow-xl transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-300 pt-5">

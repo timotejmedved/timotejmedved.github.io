@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
+import imageSrc from '../public/images/clanek.jpeg';
 
 export default function ImageComponent({ src = '/images/clanek.jpeg', alt = 'Članek štajerski tednik', text }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -28,7 +29,13 @@ export default function ImageComponent({ src = '/images/clanek.jpeg', alt = 'Čl
                 setIsModalOpen(false);
               }}>&times;</span>
               {/* Modal image, clicking this will also toggle the modal state */}
-              <img className="modal-content" src={src} alt={alt} onClick={toggleModal} />
+              <Image 
+                className="modal-content" 
+                src={src} 
+                alt={alt} 
+       
+                onClick={toggleModal}
+              />
             </div>
           )}
         </div>
