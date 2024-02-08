@@ -70,7 +70,7 @@ export default function About() {
 
 
             <span className="font-bold underline">Diplomsko delo:
-              <a href="/docs/Diplomska_naloga.pdf" target='_blank' > Diplomska naloga (.pdf)</a>
+              <a href="/docs/Diplomska_naloga.pdf" target='_blank' rel="noreferrer" > Diplomska naloga (.pdf)</a>
             </span>
             <div className="w-full  mx-auto shadow-xl transition ease-in-out  ">
               <div className="p-1  bg-color">
@@ -80,7 +80,7 @@ export default function About() {
                 <p className="opacity-80 icon-color font-sans p-1">Naslov: Primerjava ogrodij Express.js, Laravel ter .Net core web API za izdelavo REST API
                   <br />
 
-                  Povezava do diplome:<span className="font-medium hover:text-color"> <a href="https://dk.um.si/IzpisGradiva.php?id=85310&lang=slv" className='text-blue-400 hover:underline' target='_blank' >DK.UM.SI</a></span>
+                  Povezava do diplome:<span className="font-medium hover:text-color"> <a href="https://dk.um.si/IzpisGradiva.php?id=85310&lang=slv" className='text-blue-400 hover:underline' target='_blank' rel="noreferrer">DK.UM.SI</a></span>
 
                 </p>
               </div>
@@ -113,7 +113,7 @@ export default function About() {
               <p className="opacity-80 icon-color font-sans p-3">Več o moji izkušnji na Erasmus+ si lahko prebereš v mojem dnevniku, ki je nastal v času bivanja na Poljskem.
                 <br /><br />
 
-                <span className="font-medium hover:text-color"><a href="/docs/WROCŁAW 2019.pdf" target='_blank' >Dnevnik Wrocław (.pdf)</a></span>
+                <span className="font-medium hover:text-color"><a href="/docs/WROCŁAW 2019.pdf" target='_blank' rel="noreferrer" >Dnevnik Wrocław (.pdf)</a></span>
 
               </p>
             </div>
@@ -147,7 +147,7 @@ export default function About() {
           <h3 className="icon-color text-xl pb-1">ŠTAJERSKI TEDNIK</h3>
           <p className="opacity-80 icon-color font-sans">
             Elektro Maribor je že deveto leto zapored podelil nagrade za odlične dosežke v izobraževanju najboljšim dijakom srednjih elektro šol na svojem oskrbnem območju. Letošnji najboljši dijaki Elektro in računalniške šole Šolskega centra Ptuj so: Niko Križnik (zlati znak odličnosti, nagrada 300 evrov), Timotej Medved (srebrni znak odličnosti, nagrada 200 evrov) in Dominik Bigec (bronasti znak odličnosti, nagrada 100 evrov).
-            <br /><a className="hover:text-color underline" rel="noreferrer" target="_blank" href="https://www.tednik.si/druzba/21581-niko-timotej-in-dominik-dijaki-z-jasno-vizijo-svoje-prihodnosti">ŠTAJERSKI TEDNIK</a>
+            <br /><a className="hover:text-color underline" rel="noreferrer" target="_blank" href="https://www.tednik.si/druzba/21581-niko-timotej-in-dominik-dijaki-z-jasno-vizijo-svoje-prihodnosti" rel="noreferrer">ŠTAJERSKI TEDNIK</a>
           </p>
         </div>
       </div>
