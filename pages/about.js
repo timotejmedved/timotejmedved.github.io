@@ -70,9 +70,7 @@ export default function About() {
             <li>Univerza v Mariboru - Fakulteta za elektrotehniko, računalništvo in informatiko (2020 - 2023) - diplomirani inženir informatike in tehnologij komuniciranja (VS)</li>
 
 
-            <span className="font-bold underline">Diplomsko delo:
-              <a href="/docs/Diplomska_naloga.pdf" target='_blank' rel="noreferrer" > Diplomska naloga (.pdf)</a>
-            </span>
+        
             <div className="w-full  mx-auto shadow-xl transition ease-in-out  ">
               <div className="p-1  bg-color">
                 <h1 className="text-white font-semibold text-xl">Diplomska naloga </h1>
