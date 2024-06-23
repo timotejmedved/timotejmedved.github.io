@@ -1,5 +1,6 @@
 {
     "projects":[
+
         {
             "id":6,
             "vsebina": "false",
@@ -32,14 +33,44 @@
         {
             "id":1,
             "vsebina": "false",
-            "name":"Kraftia - spletna trgovina",
+            "name":"Zapiski.si - prihaja v letu 2024",
             "short-description":"This is a project",
-            "long-description":"This is a project",
+            "long_description":"Spletna trgovina za prodajo hrane za pse in mačke. Trgovina je bila narejena v WordPressu ter uporablja lastno temo ter prilagojen WooCommerce vtičnik. ",
             "type":"OpenSource",
             "start_date":"01/01/2019",
             "end_date":"01/01/2018",
-            "url":"https://kraftia.slomaster.info/",
-            "image":"https://kraftia.ch/wp-content/uploads/2021/07/logo205.png",
+            "url":"https://zapiski.si/",
+            "image":"https://zapiski.si/",
+            "gallery":[
+               
+            ],
+            "youtube":"",
+            "year":"2024",
+            "status":"Projekt je končan",
+            "priority":"-",
+            "github-link":"",
+            "team":[
+                {
+                    "name":"Timotej Medved",
+                    "role":"Developer"
+                }
+            ],
+            "tags":[
+                "NEXTJS"
+                
+            ]
+        },
+        {
+            "id":1,
+            "vsebina": "true",
+            "name":"Kraftia - spletna trgovina",
+            "short-description":"This is a project",
+            "long_description":"Spletna trgovina za prodajo hrane za pse in mačke. Trgovina je bila narejena v WordPressu ter uporablja lastno temo ter prilagojen WooCommerce vtičnik. ",
+            "type":"OpenSource",
+            "start_date":"01/01/2019",
+            "end_date":"01/01/2018",
+            "url":"https://kraftia.si",
+            "image":"https://kraftia.slomaster.info/wp-content/uploads/2022/08/Slomaster_KRAFTIA_LETAK-A5-1.webp",
             "gallery":[
                
             ],

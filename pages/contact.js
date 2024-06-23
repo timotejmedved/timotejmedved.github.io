@@ -31,7 +31,8 @@ export default function Contact() {
         </div>
         <div className="bg-gray-100 p-1">
           <p className="opacity-80 p-3">
-            .pdf (v pripravi)
+          <span className="font-medium hover:text-color"><a href="/docs/cv2024sl.pdf" target='_blank' >Življenjepis v PDF obliki.</a></span>
+           
           </p>
         </div>
       </div>
