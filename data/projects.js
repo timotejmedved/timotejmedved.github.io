@@ -1,5 +1,33 @@
 export const projects = [
-    
+    {
+        "id":6,
+        "name":"Kraftia - spletna trgovina",
+        "short-description":"This is a project",
+        "long-description":"This is a project",
+        "type":"OpenSource",
+        "start_date":"01/01/2019",
+        "end_date":"01/01/2018",
+        "url":"https://kraftia.slomaster.info/",
+        "image":"https://kraftia.ch/wp-content/uploads/2021/07/logo205.png",
+        "gallery":[
+           
+        ],
+        "youtube":"",
+        "year":"2022",
+        "status":"Projekt je končan",
+        "priority":"-",
+        "github-link":"",
+        "team":[
+            {
+                "name":"Timotej Medved",
+                "role":"Developer"
+            }
+        ],
+        "tags":[
+            "C#",
+            "WPF"
+        ]
+    },
     {
         "id":1,
         "name":"Kraftia - spletna trgovina",

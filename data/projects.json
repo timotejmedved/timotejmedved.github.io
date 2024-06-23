@@ -1,6 +1,35 @@
 {
     "projects":[
         {
+            "id":6,
+            "vsebina": "false",
+            "name":"Zapiski.si",
+            "short-description":"This is a project",
+            "long-description":"This is a project",
+            "type":"OpenSource",
+            "start_date":"01/01/2019",
+            "end_date":"01/01/2018",
+            "url":"https://zapiski.si/",
+            "image":"https://zapiski.si/baner.png",
+            "gallery":[
+               
+            ],
+            "youtube":"",
+            "year":"2024",
+            "status":"Projekt je v teku",
+            "priority":"-",
+            "github-link":"",
+            "team":[
+                {
+                    "name":"Timotej Medved",
+                    "role":"Developer"
+                }
+            ],
+            "tags":[
+                "NEXT.JS"
+            ]
+        },
+        {
             "id":1,
             "vsebina": "false",
             "name":"Kraftia - spletna trgovina",
